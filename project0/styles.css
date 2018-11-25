@@ -1,0 +1,123 @@
+body {
+    font-family: Times;
+    margin: 50px;
+}
+
+.item {
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+}
+
+.item :hover  {
+    border:1.5px solid orange;
+}
+
+h1 {
+    border:1.5px solid orange;
+}
+
+.content {
+    color: red;
+    font-size: 14pt;
+}
+
+.content ::before {
+    content: "\21d2  Click here: "
+}
+
+#world {
+    text-decoration: underline;
+    color: gold;
+}
+
+
+p::selection {
+    color:red;
+    background-color: yellow;
+}
+
+input[type=text] {
+    background-color: plum;
+}
+
+input[type=number] {
+    background-color: beige;
+}
+
+
+@media print {
+    .form {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        background-color: skyblue;
+    }
+}
+
+@media (max-width: 899px) {
+    .container {
+        background-color: Aquamarine;
+    }
+}
+
+
+.row > div {
+    padding: 20px;
+    background-color: magenta;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+button {
+    border: 2px solid gold;
+    background-color: lightgreen;
+}
+
+
+/* FOR INTEREST LIST*/
+#header {
+    text-align: center;
+    font-size: 28pt;
+    text-decoration: underline;
+    color: teal;
+}
+
+ol > li {
+    color: khaki;
+    font-size: 16pt;
+}
+
+ul li {
+    color: navy;
+    font-size: 12pt;
+}
+
+
+/* FOR TABLE */
+table {
+    border: 2px solid brown;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid brown;
+    text-align: center;
+    padding: 20px;
+
+}
+
+th {
+    font-size: 16pt;
+}
+
+
+
+
+
+
+
+/* link to BOOTSTRAP to be able to use its components?? */

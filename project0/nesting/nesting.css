@@ -1,0 +1,19 @@
+@media (min-width: 900px) {
+  .container {
+    background-color: skyblue;
+  }
+}
+@media (max-width: 899px) {
+  .container {
+    background-color: Aquamarine;
+  }
+}
+div {
+  font-weight: bold;
+}
+div p {
+  font-size: 25pt;
+  color: khaki;
+}
+
+/*# sourceMappingURL=nesting.css.map */

@@ -1,0 +1,30 @@
+@media (min-width: 900px) {
+  .container {
+    background-color: skyblue;
+  }
+}
+@media (max-width: 899px) {
+  .container {
+    background-color: Aquamarine;
+  }
+}
+
+%info {
+    font-family: cursive;
+    border: 3px dotted tomato;
+}
+
+.about {
+    @extend %info;
+    background-color: Orangered;
+}
+
+.interest {
+    @extend %info;
+    background-color: Limegreen;
+}
+
+.future {
+    @extend %info;
+    background-color: Aqua;
+}

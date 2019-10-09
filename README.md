@@ -1,4 +1,4 @@
-# Project 0
+# Project 0: Homepage
 Web Programming with Python and JavaScript
 
-Personal homepage website with HTML, CSS and SCSS.
+Personal website about myself with HTML, CSS and SCSS.
